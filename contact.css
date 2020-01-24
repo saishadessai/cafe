@@ -1,0 +1,90 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+ header
+  {
+	   background-image: url(wonderwall__cafe_gallery.jpeg);
+	   height: 85vh;
+	   background-size: cover;
+	   background-position:center;
+	   box-sizing:border-box;
+	   font-family:sans-serif;
+  }
+.main-nav
+  {
+	    float:right;
+		list-style: none;
+		margin-top: 30px;
+  
+  }
+ .main-nav li
+   {
+	   display:inline-block;
+   }
+ .main-nav li a
+	{
+		 color:DARKBLUE;
+		 text-decoration: none;
+		 padding: 5px 20px;
+		 font-family: "Roboto", sans-serif;
+		 font-size:30px;
+		 
+	}
+	 
+.main-nav li.active a
+	 {
+		 border: 1px solid white;
+	 } 
+.main-nav li a:hover 
+	  
+	 
+	  {
+		   border: 1px solid white;
+	  }
+
+.logo img
+      {
+		  float: left;
+		  width:150px;
+		  height: auto;
+	  }
+	  
+
+ .title h1{
+	 color: WHITE;
+	 font-size: 70px;
+	 
+ }
+ .title
+      {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.title8 h2{
+	  
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+h2 {
+  text-align:LEFT;
+  text-transform: uppercase;
+  color: maroon;
+}
+
+p {
+  text-indent: 50px;
+  text-align: LEFT;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
